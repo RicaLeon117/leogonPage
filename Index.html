@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios y Catálogos</title>
+    <!-- Google Font -->
+   <!-- En el <head> -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: #e9e9e9c2;
+            color: rgb(0, 0, 0);
+            padding: 50px;
+            text-align: center;
+        }
+
+        header img {
+            width: 200px;
+            vertical-align: middle;
+        }
+
+      header h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+        nav {
+            background-color: #034388;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #035342;
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+
+        .download {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .download a {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 18px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .download a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #ccc;
+        }
+
+        /* Servicios - Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card i {
+            font-size: 40px;
+            color: #000d1a;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo de la empresa">
+        <h1>LEO-GON</h1>
+        <h1>Servicios y soluciones inteligentes</h1>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogos">Catálogos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Servicios -->
+        <section class="services" id="servicios">
+            <h2>Nuestros Servicios</h2>
+    <!--        <div class="cards">
+                <div class="card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Distribución de productos</h3>
+                    <p>Entregamos productos de temporada de manera eficiente a todo el país.</p>
+                </div>-->
+                 <div class="cards">
+                <div class="card">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Herrajes y soldadura</h3>
+                    <p>Contamos con equipo de soldadura, montaje y pintura.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-boxes"></i>
+                    <h3>Venta al por mayor</h3>
+                    <p>Ofrecemos precios competitivos para empresas y revendedores.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Catálogos digitales y físicos</h3>
+                    <p>Accede a nuestros productos a través de catálogos actualizados en ambos formatos.</p>
+                </div>
+                <div class="card">
+                    <i class="fa fa-user-circle"></i>
+                    <h3>Atención personalizada</h3>
+                    <p>Asesoría directa para seleccionar los productos que mejor se adapten a tu negocio.</p>
+                </div>
+                <div class="card">
+                    <i class="fa fa-user-circle"></i>
+                    <h3>Servicios en Tecnología</h3>
+                    <p>Descubre soluciones innovadoras en infraestructura, software, ciberseguridad y soporte técnico diseñadas para impulsar la transformación digital de tu empresa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catálogos -->
+        <section id="catalogos">
+            <h2>Catálogos de Productos</h2>
+            <p>¡Explora nuestras últimas novedades! Visualiza o descarga los catálogos actualizados y encuentra lo que estás buscando de forma rápida y sencilla.</p>
+
+            <h3>CATALAGO CARNAZA 2025</h3>
+            <iframe src="CATALAGO CARNAZA 2025.pdf"></iframe>
+            <div class="download">
+                <a href="CATALAGO CARNAZA 2025.pdf" download>Descargar CATALAGO CARNAZA 2025</a>
+            </div>
+
+            <h3>CATALOGO 2025</h3>
+            <iframe src="CATALOGO 2025.pdf"></iframe>
+            <div class="download">
+                <a href="CATALOGO 2025.pdf" download>Descargar CATALOGO 2025</a>
+            </div>
+        </section>
+<!-- Botón y formulario de cotización -->
+<section id="cotizacion" style="text-align: center; margin-top: 60px;">
+    <h2>Solicita tu Cotización</h2>
+    <button onclick="document.getElementById('form-cotizacion').style.display='block'" style="padding: 12px 24px; font-size: 16px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Cotizar ahora
+    </button>
+
+    <div id="form-cotizacion" style="display: none; margin-top: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
+        <form action="https://formspree.io/f/xvgrgoqd" method="POST">
+            <label for="contacto">Correo electrónico o número:</label>
+            <input type="text" name="contacto" id="contacto" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 4px; border: 1px solid #ccc;">
+            <input type="submit" value="Enviar" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+        </form>
+    </div>
+</section>
+
+        <!-- Contacto -->
+        <section class="contact" id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Correo: r-ika12@live.com</p>
+            <p>Teléfono: +52 461 12606 38</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LEO-GON. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/524611260638" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:contacto@tudominio.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
